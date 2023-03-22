@@ -1,98 +1,25 @@
 
 > js-basics-strings-code-along@0.1.0 test
-> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json --bail
 
 
 
   index.js
     currentUser
-      1) is defined
+      ✓ is defined
     welcomeMessage
-      2) contains "Welcome to Flatbook, "
-      3) contains the value of the 'currentUser' variable
-      4) ends with an exclamation point!
+      ✓ contains "Welcome to Flatbook, "
+      ✓ contains the value of the 'currentUser' variable
+      ✓ ends with an exclamation point!
     excitedWelcomeMessage
-      5) contains "WELCOME TO FLATBOOK, "
-      6) contains the value of the 'currentUser' variable
-      7) ends with an exclamation point
+      ✓ contains "WELCOME TO FLATBOOK, "
+      ✓ contains the value of the 'currentUser' variable
+      ✓ ends with an exclamation point
     shortGreeting
-      8) contains "Welcome, "
-      9) contains the first initial of the name stored in the 'currentUser' variable
-      10) ends with an exclamation point
+      ✓ contains "Welcome, "
+      ✓ contains the first initial of the name stored in the 'currentUser' variable
+      ✓ ends with an exclamation point
 
 
-  0 passing (261ms)
-  10 failing
-
-  1) index.js
-       currentUser
-         is defined:
-     ReferenceError: currentUser is not defined
-      at Context.<anonymous> (test/indexTest.js:6:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  2) index.js
-       welcomeMessage
-         contains "Welcome to Flatbook, ":
-     ReferenceError: welcomeMessage is not defined
-      at Context.<anonymous> (test/indexTest.js:13:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  3) index.js
-       welcomeMessage
-         contains the value of the 'currentUser' variable:
-     ReferenceError: welcomeMessage is not defined
-      at Context.<anonymous> (test/indexTest.js:17:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  4) index.js
-       welcomeMessage
-         ends with an exclamation point!:
-     ReferenceError: welcomeMessage is not defined
-      at Context.<anonymous> (test/indexTest.js:21:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  5) index.js
-       excitedWelcomeMessage
-         contains "WELCOME TO FLATBOOK, ":
-     ReferenceError: excitedWelcomeMessage is not defined
-      at Context.<anonymous> (test/indexTest.js:27:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  6) index.js
-       excitedWelcomeMessage
-         contains the value of the 'currentUser' variable:
-     ReferenceError: currentUser is not defined
-      at Context.<anonymous> (test/indexTest.js:31:36)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  7) index.js
-       excitedWelcomeMessage
-         ends with an exclamation point:
-     ReferenceError: excitedWelcomeMessage is not defined
-      at Context.<anonymous> (test/indexTest.js:37:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  8) index.js
-       shortGreeting
-         contains "Welcome, ":
-     ReferenceError: shortGreeting is not defined
-      at Context.<anonymous> (test/indexTest.js:43:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  9) index.js
-       shortGreeting
-         contains the first initial of the name stored in the 'currentUser' variable:
-     ReferenceError: currentUser is not defined
-      at Context.<anonymous> (test/indexTest.js:47:28)
-      at process.processImmediate (node:internal/timers:476:21)
-
-  10) index.js
-       shortGreeting
-         ends with an exclamation point:
-     ReferenceError: shortGreeting is not defined
-      at Context.<anonymous> (test/indexTest.js:55:14)
-      at process.processImmediate (node:internal/timers:476:21)
-
-
+  10 passing (251ms)
 
